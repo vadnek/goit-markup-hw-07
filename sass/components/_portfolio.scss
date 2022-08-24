@@ -1,4 +1,4 @@
-.filters-btn {
+.filters__btn {
   padding: 6px 22px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -24,7 +24,7 @@
   }
 }
 
-.portfolio-title-h2 {
+.portfolio__title-h2 {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -32,37 +32,37 @@
   letter-spacing: 0.06em;
   color: var(--color-menu-link);
 }
-.portfolio-text {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--color-text-main);
 }
 
-.filters-list {
+.filters {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
 }
 
-.filters-item {
+.filters__item {
   margin-right: 8px;
   &:last-child {
     margin-right: 0px;
   }
 }
 
-.drafts-list {
+.drafts {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.drafts-item {
+.drafts__item {
   box-sizing: border-box;
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
-.drafts-box {
+.portfolio {
   max-width: 370px;
   padding: 20px 24px;
   border: 1px solid #eeeeee;

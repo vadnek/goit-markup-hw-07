@@ -19,12 +19,12 @@
   transition: transform 250ms var(--cubic-bezier);
 }
 
-.work-list-thumb {
+.drafts__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.work-list-link {
+.drafts__link {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);

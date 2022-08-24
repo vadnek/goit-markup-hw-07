@@ -1,15 +1,15 @@
-.features-list {
+.features {
   display: flex;
 }
 
-.features-item {
+.features__item {
   width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.futures-icons-box {
+.futures__icons-box {
   display: flex;
   height: 120px;
   align-items: center;

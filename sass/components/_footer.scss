@@ -4,16 +4,16 @@
   padding-bottom: 60px;
 }
 
-.adress {
+.adress-list {
   font-style: normal;
   margin-top: 20px;
 }
 
-.adress-item:not(:last-child) {
+.adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-address {
+.footer__address {
   flex-grow: 1;
   font-style: normal;
   font-size: 14px;
@@ -56,7 +56,7 @@
   }
 }
 
-.footer-conteiner {
+.footer__conteiner {
   display: flex;
   align-items: baseline;
 }
