@@ -107,11 +107,11 @@ button {
   color: var(--color-btn-main-hover);
 }
 
-.menu__link.line-down {
+.menu__link.--curent {
   color: var(--color-btn-main-hover);
 }
 
-.line-down::after {
+.--curent::after {
   position: absolute;
   bottom: -1px;
   display: block;
@@ -156,7 +156,7 @@ button {
   margin-right: 93px;
 }
 
-.logotipe-accent {
+.logotipe__accent {
   color: #212121;
 }
 
@@ -270,7 +270,7 @@ body {
   margin-right: 30px;
 }
 
-.futures__icons-box {
+.features__icons-box {
   display: flex;
   height: 120px;
   align-items: center;
@@ -280,7 +280,7 @@ body {
   background-color: var(--color-bgd-team);
 }
 
-.future-title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -289,14 +289,14 @@ body {
   color: var(--color-menu-link);
 }
 
-.future {
+.features__text {
   margin-top: 10px;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
 }
 
-.secondary-title {
+.section__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -347,7 +347,7 @@ body {
   text-align: center;
 }
 
-.team__list {
+.team {
   display: flex;
   margin-left: -30px;
 }
@@ -357,7 +357,7 @@ body {
   padding-bottom: 30px;
 }
 
-.team {
+.section__other-background {
   background-color: var(--color-bgd-team);
 }
 
@@ -571,7 +571,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio__title-h2 {
+.portfolio__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;

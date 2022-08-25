@@ -49,11 +49,11 @@
   }
 }
 
-.menu__link.line-down {
+.menu__link.--curent {
   color: var(--color-btn-main-hover);
 }
 
-.line-down::after {
+.--curent::after {
   position: absolute;
   bottom: -1px;
   display: block;
